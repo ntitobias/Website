@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    font-size: 64px;
+    font-family: Arial;
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+h2 {
+    font-size: 32px;
+    font-family: Arial;
+    color: goldenrod;
+    text-align: left;
+    text-shadow: 2px 2px 2px black;
+}
+p {
+    font-size: 24px;
+    font-family: Arial;
+    color: rgb(49, 34, 5);
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+}
+a {
+    font-family: Arial;
+    border: none;
+    text-align: center;
+    padding: 12px 24px;
+    background-color: rgb(166, 166, 166);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    font-size: 64px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px 6px black;
+    box-shadow: 2px 2px 5px black;
+    transition-duration: 0.2s;
+    background-color: rgb(208, 73, 73);
+}
+
