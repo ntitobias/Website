@@ -22,23 +22,34 @@ p {
     text-align: left;
     text-shadow: 1px 1px 1px black;
 }
-a {
-    font-family: Arial;
-    border: none;
+
+#BackButton {
+    font-size: 24px; 
+    padding: 6px 12px;
+}
+
+.topnav {
+    position: fixed;
+    top: 0; left: 0; right: 0; z-index: -9999;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: whitesmoke;
     text-align: center;
-    padding: 12px 24px;
-    background-color: rgb(166, 166, 166);
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    border-radius: 24px;
-    font-size: 64px;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-a:hover {
-    text-shadow: 1px 1px 6px black;
-    box-shadow: 2px 2px 5px black;
-    transition-duration: 0.2s;
-    background-color: rgb(208, 73, 73);
+.topnav a:hover {
+    background-color: grey;
+    color: black;
 }
 
+.topnav a.active {
+    background-color: rgb(20, 200, 30);
+    color: whitesmoke;
+}
