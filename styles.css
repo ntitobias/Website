@@ -43,11 +43,13 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.3s ease-in;
 }
 
 .topnav a:hover {
     background-color: grey;
     color: black;
+    transition: 0.2s ease-in;
 }
 
 .topnav a.active {
@@ -55,9 +57,29 @@ p {
     color: whitesmoke;
 }
 
-img {
-    float: bottom;
-    max-width: 20%;
+.polaroid img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    max-width: 50%;
     max-height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.poems h2 {
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(230, 230, 230);
+}
+
+.poems ul {
+    list-style-type: none;
+    color:rgb(10, 10, 10);
+    font-size: 18px;
+}
+
+.poems {
+    border: black;
+    border-width: 10px;
 }
