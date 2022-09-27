@@ -33,7 +33,7 @@ p {
     position: fixed;
     top: 0; left: 0; right: 0; z-index: 1;
     background-color: #333;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .topnav a {
@@ -73,13 +73,45 @@ p {
     text-shadow: 1px 1px 1px rgb(230, 230, 230);
 }
 
-.poems ul {
+.poems p {
     list-style-type: none;
     color:rgb(10, 10, 10);
     font-size: 18px;
+    border: 1px black;
 }
 
-.poems {
-    border: black;
-    border-width: 10px;
+.dropbtn {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
 }
+/* dropdown är en container för allt annat */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: lightgray;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: rgb(255, 255, 255); 
+    background-color: lightgray;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
