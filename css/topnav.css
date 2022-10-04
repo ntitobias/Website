@@ -1,0 +1,64 @@
+.active {
+    background-color: #3e8e41;
+}
+.topnav {
+    display: flex;
+    position: fixed;
+    top: 0; left: 0; right: 0; z-index: 1;
+    background-color: #333;
+    overflow: visible;
+}
+
+.topnav a {
+    font-family: Arial;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s ease-in;
+}
+
+.topnav a:hover {
+    background-color: grey;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
+}
+/* dropdown är en container för allt annat */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    min-width: 101px;
+    display: none;
+    position: absolute;
+    background: lightgray;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: Arial;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: rgb(255, 255, 255); 
+    background-color: lightgray;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41; color:rgb(0, 0, 0)}
