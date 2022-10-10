@@ -1,9 +1,12 @@
-.polaroid img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    max-width: 50%;
-    max-height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+body {
+    padding: 10px 10px;
+}
+article {
+    margin-top: 5%;
+    columns: 3;
+}
+img {
+    margin: 10px 10px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 0px #5a5a5a;
 }
