@@ -1,26 +1,26 @@
 body {
     display: block;
-    background-color: gainsboro;
+    background-color: rgb(44, 44, 44);
     overflow: scroll;
     max-width: 900px;
     margin: auto;
 }
 article {
-    display: grid;
-    background-color: gray;
-    grid-template-columns: auto auto auto;
+    columns: 3;
     gap: 20px 20px;
     margin-top: 55px;
 }    
 
 img {
+    margin-top: 15px;
     border-radius: 20px;
     width: 100%;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 25px 5px #000;
 }
 
 img:hover {
-    transition-duration: 0.4s;
-    box-shadow: 2px 2px 25px 5px #000;
+    transition-duration: 0.2s;
+    box-shadow: 2px 2px 25px 5px #111;
 
 }
