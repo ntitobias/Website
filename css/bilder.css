@@ -1,12 +1,24 @@
 body {
-    padding: 10px 10px;
+    display: block;
+    background-color: gainsboro;
+    overflow: scroll;
+    max-width: 900px;
+    margin: auto;
 }
 article {
-    margin-top: 5%;
     columns: 3;
+    margin-top: 55px;
+}    
+figcaption {
+    background-color: gray;
+    color: wheat;
+    font-style: Arial;
+    text-align: center;
+}
+figure {
+    margin-top: 15px;
+    border: 1px rgb(0, 0, 0) solid;
 }
 img {
-    margin: 10px 10px;
     width: 100%;
-    box-shadow: 1px 1px 5px 0px #5a5a5a;
 }
