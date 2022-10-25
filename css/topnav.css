@@ -1,6 +1,9 @@
 .active {
     background-color: #3e8e41;
 }
+:root {
+    --font: "Franklin Gothic Medium"
+}
 .topnav {
     display: flex;
     position: fixed;
@@ -10,7 +13,7 @@
 }
 
 .topnav a {
-    font-family: Arial;
+    font-family: var(--font);
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
@@ -20,9 +23,11 @@
 }
 
 .topnav a:hover {
-    background-color: grey;
-    color: black;
+    color: #3e8e41;
     transition: 0.2s ease-in;
+}
+.topnav .active:hover {
+    color: rgb(77, 77, 77);
 }
 
 /* icon csn för uppgifter pil. */
@@ -74,7 +79,7 @@
 } 
 
 .dropdown-content a {
-    font-family: Arial;
+    font-family: var(--font);
     color: black;
     text-align: center;
     text-decoration: none;

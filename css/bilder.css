@@ -1,3 +1,6 @@
+:root {
+    --font: "Franklin Gothic Medium"
+}
 body {
     display: block;
     background-color: rgb(44, 44, 44);

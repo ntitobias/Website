@@ -1,9 +1,12 @@
+:root {
+    --font: "Franklin Gothic Medium"
+}
 h1 {
     margin-top: 60px;
     font-size: 36px;
     color:  white;
     text-align: center;
-    font-family: Arial;
+    font-family: var(--font);
     text-shadow: 0 1px 0 gray, 0 2px 0 gray,
                 0 2px 0 gray, 0 3px 0 gray,
                 0 3px 0 gray, 0 4px 0 gray,
@@ -17,7 +20,7 @@ h2 {
     font-size: 24px;
     color:  white;
     text-align: center;
-    font-family: Arial;
+    font-family: var(--font);
     text-shadow: 0 1px 0 gray, 0 2px 0 gray,
                 0 2px 0 gray, 0 3px 0 gray,
                 0 3px 0 gray, 0 4px 0 gray,
@@ -34,7 +37,7 @@ section {
 p {
     border: 1px whitesmoke;
     display: block;
-    font-family: Arial;
+    font-family: var(--font);
     color:whitesmoke;
     font-size: 20px;
     text-align: left;
@@ -42,7 +45,7 @@ p {
 
 }
 h2 {
-    font-family: Arial;
+    font-family: var(--font);
     color: white;
 }
 

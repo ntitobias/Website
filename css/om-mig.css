@@ -1,25 +1,31 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(163, 163, 163);
+}
+:root {
+    --font: "Franklin Gothic Medium";
+    --max-width: 900px
 }
 h1 {
     margin-top: 5%;
-    font-size: 64px;
-    font-family: Arial;
-    color: blueviolet;
+    font-size: 4vw;
+    font-family: var(--font);
+    color: rgb(0, 0, 0);
     text-align: center;
-    text-shadow: 2px 2px 2px black;
 }
 h2 {
-    font-size: 32px;
-    font-family: Arial;
-    color: goldenrod;
-    text-align: left;
-    text-shadow: 2px 2px 2px black;
+    font-size: 3vw;
+    font-family: var(--font);
+    color: rgb(53, 53, 53);
+    text-align: center;
 }
 p {
-    font-size: 24px;
-    font-family: Arial;
-    color: rgb(49, 34, 5);
+    font-size: 2.8vw;
+    font-family: var(--font);
+    color: rgb(36, 36, 36);
     text-align: left;
-    text-shadow: 1px 1px 1px black;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
 }
