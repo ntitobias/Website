@@ -23,11 +23,9 @@
 }
 
 .topnav a:hover {
-    color: #3e8e41;
+    background-color: gray;
+    color: rgb(48, 48, 48);
     transition: 0.2s ease-in;
-}
-.topnav .active:hover {
-    color: rgb(77, 77, 77);
 }
 
 /* icon csn för uppgifter pil. */
@@ -59,6 +57,7 @@
 
 /* dropdown är en container för allt annat */
 .dropbtn {
+    font-family: var(--font);
     background-color: #333;
     color: whitesmoke;
     padding: 14px 16px;
@@ -90,4 +89,4 @@
     color: rgb(255, 255, 255); 
 }
 .dropdown:hover .dropdown-content {display:block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41; color:rgb(0, 0, 0)}
+.dropdown:hover .dropbtn {background-color: gray; color: rgb(15, 15, 15);}
