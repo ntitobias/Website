@@ -25,6 +25,34 @@
     transition: 0.2s ease-in;
 }
 
+/* icon csn för uppgifter pil. */
+.dropbtn i:nth-child(2) {
+    display: none;
+}
+.dropbtn i:nth-child(1) {
+    display: flex;
+    float: right;
+    margin-left: 5px;
+}
+.dropbtn:hover i:nth-child(1) {
+    display: none;
+    float: right;
+}
+.dropbtn:hover i:nth-child(2) {
+    display: flex;
+    float: right;
+    margin-left: 5px;
+}
+.dropdown:hover i:nth-child(2) {
+    display: flex;
+    float: right;
+    margin-left: 5px;
+}
+.dropdown:hover i:nth-child(1) {
+    display: none;
+}
+
+/* dropdown är en container för allt annat */
 .dropbtn {
     background-color: #333;
     color: whitesmoke;
@@ -32,25 +60,23 @@
     font-size: 17px;
     border: none;
 }
-/* dropdown är en container för allt annat */
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
-    min-width: 101px;
+    min-width: 121px;
     display: none;
     position: absolute;
     background: lightgray;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
+} 
 
 .dropdown-content a {
     font-family: Arial;
     color: black;
-    padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
     display: block;
 }
@@ -58,5 +84,5 @@
 .dropdown-content a:hover {
     color: rgb(255, 255, 255); 
 }
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display:block;}
 .dropdown:hover .dropbtn {background-color: #3e8e41; color:rgb(0, 0, 0)}
