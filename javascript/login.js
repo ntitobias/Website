@@ -1,4 +1,6 @@
 function checkData(e) {
-    alert("Name is " + e.username.value)
+    if (123 == e.password.value && "abc" == e.username.value) {
+        document.location.href="om-mig-sida.html";
+        return false;
+    }
 }
-console.log("test")

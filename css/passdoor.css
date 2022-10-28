@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 
-.box {
+section {
     position: relative;
     width: 380px;
     height: 420px;
