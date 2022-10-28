@@ -69,7 +69,7 @@
     display: inline-block;
 }
 .dropdown-content {
-    min-width: 122px;
+    min-width: 118px;
     display: none;
     position: absolute;
     background: lightgray;

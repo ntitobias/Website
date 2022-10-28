@@ -1,5 +1,81 @@
-section {
+:root {
+    --background-color: #212121;
+    --color1: #111111;
+    --color2: #313131;
+    --text-color: #7a7a7a;
+}
+body {
     display: flex;
     justify-content: center;
-    margin: 50% 50%;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: var(--background-color);
+    border-radius: 42px;
+    box-shadow: inset -5px -5px 16px var(--color1),
+                inset 5px 5px 16px var(--color2);
+}
+form {
+    position: relative;
+    inset: 2px;
+    z-index: 10;
+    display: flex;
+    padding: 50px 40px;
+    flex-direction: column;
+}
+form h2 {
+    font-family: "Franklin Gothic Medium";
+    color: var(--text-color);
+    font-weight: 1000;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+
+input {
+    margin-top: 20px;
+    outline: none;
+    position: relative;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: var(--background-color);
+    border-radius: 42px;
+    box-shadow: inset 5px 5px 8px var(--color2),
+                inset -5px -5px 8px var(--color1);
+}
+input[type="submit"] {
+    font-family: "Franklin Gothic Medium";
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: var(--text-color);   
+} 
+input::placeholder {
+    font-weight: bold;
+    opacity: 1;
+    color: var(--text-color);
+}
+.submit {
+    margin-top: 2rem;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: var(--background-color);
+    border-radius: 42px;
+    box-shadow: inset 5px 5px 8px var(--color2),
+                inset -5px -5px 8px var(--color1);
+}
+
+.submit:active {
+    box-shadow: -5px -5px 8px var(--color2),
+                5px 5px 8px var(--color1);    
 }
