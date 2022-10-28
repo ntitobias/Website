@@ -1,5 +1,5 @@
 function checkData(e) {
-    if (123 == e.password.value && "abc" == e.username.value) {
+    if ("tobias123" == e.password.value && "Etik" == e.username.value) {
         document.location.href="om-mig-sida.html";
         return false;
     }
