@@ -4,7 +4,7 @@
     --color2: #313131;
     --text-color: #7a7a7a;
     --animation-color: #04b0ee;
-    --font: "Tahoma";
+    --font: "Franklin Gothic Medium";
 }
 body {
     display: flex;
@@ -65,7 +65,7 @@ form {
 }
 form h2 {
     font-size: xx-large;
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     color: var(--text-color);
     text-align: center;
     letter-spacing: 0.09em;
@@ -86,14 +86,14 @@ input {
                 inset -5px -5px 8px var(--color1);
 }
 input[type="submit"] {
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     font-size: large;
     font-weight: bold;
     letter-spacing: 0.2em;
     color: var(--text-color);   
 } 
 input::placeholder {
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     font-weight: bold;
     opacity: 1;
     color: var(--text-color);

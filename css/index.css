@@ -1,5 +1,5 @@
 :root {
-	--font: Tahoma;
+	--font: "Franklin Gothic Medium";
 }
 body {
 	background-color: #d7d8ca;
@@ -17,7 +17,7 @@ nav {
 }
 a {
 	color: rgb(26, 26, 26);
-	font-family: Tahoma;
+	font-family: "Franklin Gothic Medium";
 	letter-spacing: 0.15em;
 	padding: 0px 10px;
 	text-decoration: none;

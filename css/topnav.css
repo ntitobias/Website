@@ -14,7 +14,7 @@
 }
 
 .topnav a {
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
@@ -58,7 +58,7 @@
 
 /* dropdown är en container för allt annat */
 .dropbtn {
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     background-color: #333;
     color: whitesmoke;
     padding: 14px 16px;
@@ -79,7 +79,7 @@
 } 
 
 .dropdown-content a {
-    font-family: Tahoma;
+    font-family: "Franklin Gothic Medium";
     color: black;
     text-align: center;
     text-decoration: none;
