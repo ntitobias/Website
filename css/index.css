@@ -1,21 +1,34 @@
-body {
-	background: linear-gradient(-45deg,
-    #000000, #212121, #4b4b4b, #838383);
-	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
-	height: 100vh;
-}
 :root {
-    --font: "Franklin Gothic Medium"
+	--font: "Roboto";
 }
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+body {
+	background-color: #d7d8ca;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	margin-left: 20vh;
+	overflow: hidden;
+}
+nav {
+	gap: 45px;
+	font-size: xxx-large;
+	display: flex;
+	flex-direction: column;
+}
+a {
+	color: rgb(26, 26, 26);
+	font-family: var(--font);
+	letter-spacing: 0.15em;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	animation: open 0.5s;
+	opacity: 0.5;
+}
+
+@keyframes open {
+	10% {letter-spacing: 0.30em;}
+	100% {letter-spacing: 0.15em;}
 }
