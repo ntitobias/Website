@@ -2,8 +2,9 @@
     background-color: #3e8e41;
 }
 :root {
-    --font: "Franklin Gothic Medium"
+    --font: "Tahoma"
 }
+
 .topnav {
     display: flex;
     position: fixed;
@@ -13,7 +14,7 @@
 }
 
 .topnav a {
-    font-family: var(--font);
+    font-family: Tahoma;
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
@@ -57,7 +58,7 @@
 
 /* dropdown är en container för allt annat */
 .dropbtn {
-    font-family: var(--font);
+    font-family: Tahoma;
     background-color: #333;
     color: whitesmoke;
     padding: 14px 16px;
@@ -78,7 +79,7 @@
 } 
 
 .dropdown-content a {
-    font-family: var(--font);
+    font-family: Tahoma;
     color: black;
     text-align: center;
     text-decoration: none;

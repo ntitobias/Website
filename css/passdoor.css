@@ -4,6 +4,7 @@
     --color2: #313131;
     --text-color: #7a7a7a;
     --animation-color: #04b0ee;
+    --font: "Tahoma";
 }
 body {
     display: flex;
@@ -51,7 +52,7 @@ section:after {
     width: 94%;
     left: 3%;
     top: 3%;
-    border-radius: 42px;
+    border-radius: 30px;
     background-color: var(--background-color);
 }
 form {
@@ -63,9 +64,9 @@ form {
     flex-direction: column;
 }
 form h2 {
-    font-family: "Franklin Gothic Medium";
+    font-size: xx-large;
+    font-family: Tahoma;
     color: var(--text-color);
-    font-weight: 1000;
     text-align: center;
     letter-spacing: 0.09em;
 }
@@ -85,13 +86,14 @@ input {
                 inset -5px -5px 8px var(--color1);
 }
 input[type="submit"] {
-    font-family: "Franklin Gothic Medium";
+    font-family: Tahoma;
     font-size: large;
     font-weight: bold;
     letter-spacing: 0.2em;
     color: var(--text-color);   
 } 
 input::placeholder {
+    font-family: Tahoma;
     font-weight: bold;
     opacity: 1;
     color: var(--text-color);
