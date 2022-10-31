@@ -1,7 +1,7 @@
 alert('Hej');
 
 function checkData(e) {
-    if (e.password.value == "tobias123" && e.username.value == "Etik") {
+    if ("tobias123" == e.password.value && "Etik" == e.username.value) {
         document.location.href="om-mig-sida.html";
         return false;
     }
