@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
 }
 :root {
-    --font: "Franklin Gothic Medium";
+    --font: monospace;
 }
 article  {
     max-width: 900px;

@@ -1,8 +1,9 @@
 :root {
-    --font: "Franklin Gothic Medium"
+    --font: monospace;
 }
+
 body {
-    display: block;
+    display: flex;
     background-color: rgb(44, 44, 44);
     overflow: scroll;
     max-width: 900px;

@@ -2,25 +2,25 @@ body {
     background-color: rgb(163, 163, 163);
 }
 :root {
-    --font: "Franklin Gothic Medium";
+    --font: monospace;
     --max-width: 900px
 }
 h1 {
     margin-top: 5%;
-    font-size: 4vw;
-    font-family: "Franklin Gothic Medium";
+    font-size: clamp(1vw, 2vw, 3rem);
+    font-family: var(--font);
     color: rgb(0, 0, 0);
     text-align: center;
 }
 h2 {
-    font-size: 3vw;
-    font-family: "Franklin Gothic Medium";
+    font-size: clamp(1vw, 2vw, 3rem);
+    font-family: var(--font);
     color: rgb(53, 53, 53);
     text-align: center;
 }
 p {
-    font-size: 2.8vw;
-    font-family: "Franklin Gothic Medium";
+    font-size: clamp(1vw, 2vw, 2rem);
+    font-family: var(--font);
     color: rgb(36, 36, 36);
     text-align: left;
 }

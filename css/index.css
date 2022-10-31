@@ -1,23 +1,24 @@
 :root {
-	--font: "Franklin Gothic Medium";
+	--font: monospace;
 }
 body {
 	background-color: #d7d8ca;
 	display: flex;
 	align-items: center;
 	min-height: 100vh;
-	margin-left: 20vh;
+	margin-left: clamp(1vw, 15vw, 25rem);
 	overflow: hidden;
 }
 nav {
 	gap: 45px;
-	font-size: xxx-large;
 	display: flex;
 	flex-direction: column;
 }
 a {
+	font-size: clamp(1vw, 5vw, 3rem);
+	font-weight: bold;
 	color: rgb(26, 26, 26);
-	font-family: "Franklin Gothic Medium";
+	font-family: var(--font);
 	letter-spacing: 0.15em;
 	padding: 0px 10px;
 	text-decoration: none;
